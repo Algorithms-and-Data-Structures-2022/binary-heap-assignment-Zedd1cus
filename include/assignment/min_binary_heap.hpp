@@ -59,6 +59,7 @@ namespace assignment {
     int size_{0};
     int capacity_{0};
     Node* data_{nullptr};
+    int* harr;
 
    public:
     // максимальное кол-во узлов в двоичной куче (элементов в массиве)
